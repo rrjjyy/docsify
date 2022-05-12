@@ -4,4 +4,4 @@
 
   
 
- [GitHub](https://github.com/docsifyjs/docsify/) [开始学习](#=鸡蛋卷)
+ [GitHub](https://github.com/docsifyjs/docsify/) 
