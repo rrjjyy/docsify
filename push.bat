@@ -1,12 +1,12 @@
 @echo off
 echo "-------Begin-------"
 git status
-set  /p  msg=请输入提交注释:
+
 git add .
-git commit -m %msg%
-git pull
+git commit -m "1"
+
 git push
-echo 推送成功：【%msg%】
+echo 推送成功：【%1%】
 echo "--------End!--------"
 pause
 
