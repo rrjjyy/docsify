@@ -2,6 +2,7 @@
 
 | 名称             | 链接                                 |
 | ---------------- | ------------------------------------ |
+| 鱼皮学习路线     | https://luxian.yupi.icu/             |
 | 图床             | https://imgloc.com/                  |
 | 西南石油大学主站 | https://www.swpu.edu.cn/             |
 | 蓝奏·云存储      | https://pc.woozooo.com/              |
