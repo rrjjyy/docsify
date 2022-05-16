@@ -1,7 +1,8 @@
 # 网站
 
-| 图床             | https://imgloc.com/                  |
+| 名称             | 链接                                 |
 | ---------------- | ------------------------------------ |
+| 图床             | https://imgloc.com/                  |
 | 西南石油大学主站 | https://www.swpu.edu.cn/             |
 | 蓝奏·云存储      | https://pc.woozooo.com/              |
 | Maven Repository | https://mvnrepository.com/           |
