@@ -15,6 +15,8 @@
 
   - [Vue](资料/vue/vue.md)
   
+  - [Git](资料/git/git.md)
+  
   - [pdf测试](资料/s.pdf)
   
     
