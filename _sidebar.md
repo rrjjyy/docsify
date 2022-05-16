@@ -17,12 +17,11 @@
   
   - [Git](资料/git/git.md)
   
-  - [pdf测试](资料/s.pdf)
+    
   
     
 
 
-1. [java](java/)
 
 
 
