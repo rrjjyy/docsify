@@ -8,7 +8,7 @@
 | Maven Repository | https://mvnrepository.com/           |
 | 阿虚同学的储物间 | https://axutongxue.com/              |
 | 非小酋           | https://feixiaoqiu.com/profile_main/ |
-|                  |                                      |
+| 图床导航         | http://imgdh.com/                    |
 
 # 软件类
 
@@ -20,4 +20,3 @@
 | apache-maven-3.6.1-bin.zip                         | https://wwn.lanzouh.com/iSqcc01uswmj |      |
 | QQ_9.2.5.26724rpk_Setup.zip                        | https://wwn.lanzouh.com/i0y3P0077oji |      |
 
-![img](https://pic1.zhimg.com/80/v2-70b088eeabc765a8fac84128c877f7cc_720w.jpg)
