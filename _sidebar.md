@@ -21,7 +21,7 @@
   
   - [java基础](资料/java基础/java基础.md)
   
-  - [java基础](资料/java基础/java基础02.md)
+  - [java基础2](资料/java基础/java基础02.md)
   
     
   
