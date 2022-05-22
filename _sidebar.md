@@ -8,6 +8,7 @@
   
   - [Ajax](java/Ajax.md)
   - [Vue](java/Vue.md)
+  - [词汇](英语/英语.md)
   
 - 资料
 
