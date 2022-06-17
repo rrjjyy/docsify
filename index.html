@@ -21,6 +21,18 @@
 
 <body>
   <div id="app">加载中</div>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 32,
+        locationOffset: 32,
+        title: 'TOP',
+        titleAsText: true
+      });
+    });
+  </script>
   
   <script>
     window.$docsify = {
@@ -94,6 +106,7 @@
     
   }
 
+  
     
   </script>
   <!-- Docsify v4 -->
@@ -121,6 +134,11 @@
 <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
+
+<!-- 支持回到顶部 -->
+<script src="//i2.wp.com/wugenqiang.github.io/CS-Notes/plugin/jquery.js"></script>
+<script src="//i2.wp.com/wugenqiang.github.io/CS-Notes/plugin/jquery.goup.js"></script>
+
 </body>
 
 </html>
