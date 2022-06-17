@@ -16,12 +16,25 @@
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dolphin.css"> -->
 
 
-  
+
 </head>
 
 <body>
   <div id="app">加载中</div>
 
+
+
+  <!-- <script type="text/javascript">
+  $(document).ready(function () {
+      $.goup({
+          trigger: 100,
+          bottomOffset: 150,
+          locationOffset: 100,
+          title: 'top',
+          titleAsText: true
+      });
+  }); -->
+  </script>
   <script type="text/javascript">
     $(document).ready(function () {
       $.goup({
@@ -34,25 +47,12 @@
     });
   </script>
 
-<!-- <script type="text/javascript">
-  $(document).ready(function () {
-      $.goup({
-          trigger: 100,
-          bottomOffset: 150,
-          locationOffset: 100,
-          title: 'top',
-          titleAsText: true
-      });
-  }); -->
-</script>
-
-  
   <script>
     window.$docsify = {
 
-    //   alias: {
-    //   '/.*/_sidebar.md': '/_sidebar.md'
-    // },
+      //   alias: {
+      //   '/.*/_sidebar.md': '/_sidebar.md'
+      // },
 
 
 
@@ -63,64 +63,64 @@
       coverpage: true,
       subMaxLevel: 5,
       search: {
-      // maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-      maxAge: 1,
-      paths: 'auto', // or 'auto'
-      placeholder: '搜索',
+        // maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        maxAge: 1,
+        paths: 'auto', // or 'auto'
+        placeholder: '搜索',
 
-      // 支持本地化
-      placeholder: {
-        '/zh-cn/': '搜索',
-        '/': '搜索'
+        // 支持本地化
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': '搜索'
+        },
+
+        noData: 'No Results!',
+
+        // 支持本地化
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': '找不到结果'
+        },
+
+        // 搜索标题的最大层级, 1 - 6
+        depth: 6,
+
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+        // 避免搜索索引冲突
+        // 同一域下的多个网站之间
+        namespace: 'website-1',
+
+        // 使用不同的索引作为路径前缀（namespaces）
+        // 注意：仅适用于 paths: 'auto' 模式
+        //
+        // 初始化索引时，我们从侧边栏查找第一个路径
+        // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+        pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+        // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+        // 匹配到的字符串将被用来识别索引
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+
+
       },
 
-      noData: 'No Results!',
-
-      // 支持本地化
-      noData: {
-        '/zh-cn/': '找不到结果',
-        '/': '找不到结果'
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
       },
+      // disqus: 'shortname'
 
-      // 搜索标题的最大层级, 1 - 6
-      depth: 6,
 
-      hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
 
-          // 避免搜索索引冲突
-      // 同一域下的多个网站之间
-      namespace: 'website-1',
 
-      // 使用不同的索引作为路径前缀（namespaces）
-      // 注意：仅适用于 paths: 'auto' 模式
-      //
-      // 初始化索引时，我们从侧边栏查找第一个路径
-      // 如果它与列表中的前缀匹配，我们将切换到相应的索引
-      pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
 
-      // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
-      // 匹配到的字符串将被用来识别索引
-      pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+    }
 
-     
-    },
 
-    count:{
-    countable:true,
-    fontsize:'0.9em',
-    color:'rgb(90,90,90)',
-    language:'chinese'
-  },
-  // disqus: 'shortname'
 
-  
-     
-
-    
-  }
-
-  
-    
   </script>
   <!-- Docsify v4 -->
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
@@ -134,26 +134,26 @@
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
-<!-- 离线模式 -->
+  <!-- 离线模式 -->
   <script>
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
   </script>
 
-<!-- 支持 LaTex 数学公式 -->
-<!-- CDN files for docsify-katex -->
-<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-<!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <!-- 支持 LaTex 数学公式 -->
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
 
-<!-- 支持回到顶部 -->
-<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.goup.min.js"></script>
+  <!-- 支持回到顶部 -->
+  <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.goup.min.js"></script>
 
-<!-- 点击页面出现爱心 -->
-<script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
+  <!-- 点击页面出现爱心 -->
+  <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
 
 
 </body>
