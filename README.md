@@ -1,17 +1,18 @@
 # **网站**
 
-| 名称                 | 链接                                                |
-| -------------------- | --------------------------------------------------- |
-| 原神圣遗物强化模拟器 | https://genshin.noworklife.cn/#/artifact-box        |
-| 鱼皮学习路线         | https://luxian.yupi.icu/                            |
-| 校园vpn              | [https://vpn.swpu.edu.cn](https://vpn.swpu.edu.cn/) |
-| 图床                 | https://imgloc.com/                                 |
-| 西南石油大学主站     | https://www.swpu.edu.cn/                            |
-| 蓝奏·云存储          | https://pc.woozooo.com/                             |
-| Maven Repository     | https://mvnrepository.com/                          |
-| 阿虚同学的储物间     | https://axutongxue.com/                             |
-| 非小酋               | https://feixiaoqiu.com/profile_main/                |
-| 图床导航             | http://imgdh.com/                                   |
+| 名称                       | 链接                                                         |
+| -------------------------- | ------------------------------------------------------------ |
+| 原神圣遗物强化模拟器       | https://genshin.noworklife.cn/#/artifact-box                 |
+| 鱼皮学习路线               | https://luxian.yupi.icu/                                     |
+| 校园vpn                    | [https://vpn.swpu.edu.cn](https://vpn.swpu.edu.cn/)          |
+| 图床                       | https://imgloc.com/                                          |
+| 西南石油大学主站           | https://www.swpu.edu.cn/                                     |
+| 蓝奏·云存储                | https://pc.woozooo.com/                                      |
+| Maven Repository           | https://mvnrepository.com/                                   |
+| 阿虚同学的储物间           | https://axutongxue.com/                                      |
+| 非小酋                     | https://feixiaoqiu.com/profile_main/                         |
+| 图床导航                   | http://imgdh.com/                                            |
+| Markdown教程 (codebook.cf) | [Markdown教程 (codebook.cf)](https://markdown.codebook.cf/#/) |
 
 # **软件类**
 
