@@ -19,6 +19,8 @@
 | 非小酋                     | https://feixiaoqiu.com/profile_main/                         |
 | 图床导航                   | http://imgdh.com/                                            |
 | Markdown教程 (codebook.cf) | [Markdown教程 (codebook.cf)](https://markdown.codebook.cf/#/) |
+| 图床                       | [图床 - 免费的图片外链服务 (imgloc.com)](https://imgloc.com/) |
+| 图床（常用）               | https://www.imagehub.cc/                                     |
 
 # **软件类**
 
