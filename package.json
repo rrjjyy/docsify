@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "docsify-pdf-converter": "^2.1.0-beta.0"
+    
+    
+  },
+  "scripts" : {
+    "convert" : "node_modules/.bin/docsify-pdf-converter"
+ }
+
+
+}
